@@ -1,0 +1,6 @@
+.stick {
+  @apply bg-white;
+  height: 100px;
+  width: 10px;
+  margin: 0px 45px;
+}

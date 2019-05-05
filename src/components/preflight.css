@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @apply text-base text-grey-darker bg-white leading-normal;
+  box-sizing: border-box;
+}
+
+body {
+  @apply m-0 p-0;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* purgecss start ignore */
+.font-apertura-loaded body {
+  font-family: config("fonts.apertura");
+}
+/* purgecss end ignore */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  appearance: none;
+  border: none;
+}
+
+i {
+  @apply roman;
+}
+
+input[type="checkbox"] {
+  appearance: checkbox;
+}
+
+input[type="radio"] {
+  appearance: radio;
+}
+
+ul,
+li {
+  @apply m-0 p-0 list-reset;
+}
+
+/* autoprefixer doesn't seem to add this */
+.sticky {
+  position: -webkit-sticky;
+}
