@@ -10,58 +10,35 @@ import "./spin.css"
 const IndexPage = () => (
   <Layout>
     {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
-    <div className="text-white flex items-center justify-center flex-col">
-      <div className="">
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate reverse" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate reverse" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate reverse" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate reverse" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate" />
-          ))}
-        </div>
-        <div className="flex">
-          {[1, 2, 3, 4, 5].map(i => (
-            <span className="stick animated infinite rotate reverse" />
-          ))}
-        </div>
+    <div className="text-white flex items-center justify-center flex-col min-h-screen">
+      <div className="sticks w-full">
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate reverse" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate reverse" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate reverse" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate" />
+        ))}
+        {[1, 2, 3, 4, 5].map(i => (
+          <span className="stick animated infinite rotate reverse" />
+        ))}
       </div>
     </div>
   </Layout>
