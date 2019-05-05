@@ -3568,7 +3568,7 @@
 
 /* ---------------------------------------------------------------------- */
 
-@keyframes rotate {
+@keyframes rotate1 {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -3596,9 +3596,38 @@
   }
 }
 
-.rotate {
-  -webkit-animation-name: rotate;
-  animation-name: rotate;
+@keyframes rotate2 {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-30deg);
+  }
+  40% {
+    transform: rotate(-60deg);
+  }
+  60% {
+    transform: rotate(-90deg);
+  }
+  70% {
+    transform: rotate(270deg);
+  }
+  80% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(350deg);
+  }
+}
+
+.rotate1 {
+  -webkit-animation-name: rotate1;
+  animation-name: rotate1;
+  animation-timing-function:  cubic-bezier(0.86, 0.1, 0.68, 0.94);
+}
+.rotate2 {
+  -webkit-animation-name: rotate2;
+  animation-name: rotate2;
   animation-timing-function:  cubic-bezier(0.86, 0.1, 0.68, 0.94);
 }
 

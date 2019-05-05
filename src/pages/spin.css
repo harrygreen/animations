@@ -16,7 +16,7 @@ html {
   grid-column: 1 / 1;
 }
 
-.sticks > *:first-child {
+.sticks .stick:first-child {
   grid-row: 1 / 1;
   grid-column: 1 / 1;
 }
@@ -31,5 +31,4 @@ html {
     transparent 60%,
     transparent 100%
   );
-  /* text-shadow: 0px 0px 5px rgba(255, 255, 255, 1); */
 }
